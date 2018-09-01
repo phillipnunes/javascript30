@@ -1,0 +1,41 @@
+body {
+  perspective: 800px;
+}
+
+.launchpad {
+  margin: 0 auto;
+  background: #ccc;
+  width: 200px;
+  padding: 30px 0;
+  box-shadow: 0px 6px 2px -1px #999;
+  transform: rotateX(36deg);
+}
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 140px;
+}
+
+key {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+  box-shadow: 0 5px #999;
+  border: none;
+  border-radius: 10px;
+  transition: all .1s;
+}
+
+.active-key {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(3px);
+}
+
+key:nth-child(3),
+key:nth-child(4) {
+  margin-top: 17px;
+}
