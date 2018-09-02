@@ -45,11 +45,11 @@
   transition-timing-function: cubic-bezier(0.31, 0.86, 0, 2.74);
 }
 
-.minute-hand {
+.hour-hand {
   width: 150px;
   left: 50px;
 }
-.hour-hand {
+.minute-hand {
   width: 180px;
   left: 20px;
   height: 6px;
